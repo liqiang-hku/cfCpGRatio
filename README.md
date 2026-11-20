@@ -1,7 +1,6 @@
 # cfCpGRatio
 
-cfCpGRatio estimates tissue- and cell-type-associated cfDNA signals from CpG methylation observations in selected marker regions. Its primary input is a `wgbstools` methylation-pattern file (`.pat.gz`).
-
+cfCpGRatio estimates tissue- and cell-type-associated cfDNA signals from CpG methylation observations in selected marker regions. 
 ## Installation
 
 Python 3.9 or newer is required. A Conda environment is recommended:
