@@ -101,6 +101,6 @@ One tab-separated row is written per reference cell type. The output includes Cp
 
 The raw ratio is `NA` when no CpG observations cover a cell type's marker regions. For scaled composition estimates, a missing raw ratio contributes zero if the normalization denominator is positive. When all ratios are undefined or sum to zero, the scaled estimates remain `NA`.
 
-#License
+## License
 This project is released under the GNU General Public License v3 or later.
 
