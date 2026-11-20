@@ -2,12 +2,6 @@
 
 cfCpGRatio estimates tissue- and cell-type-associated cfDNA signals from CpG methylation observations in selected marker regions. Its primary input is a `wgbstools` methylation-pattern file (`.pat.gz`).
 
-For cell type *i*, the raw estimate is
-
-\[ \mathrm{cfCpGRatio}_i = rac{U_i}{U_i+M_i} \]
-
-where *U* and *M* denote the total unmethylated and methylated CpG observations across the markers assigned to that cell type. The program also reports estimates normalized to sum to one across the reference cell types within each sample. These estimates are not calibrated absolute tissue fractions.
-
 ## Installation
 
 Python 3.9 or newer is required. A Conda environment is recommended:
