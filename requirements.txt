@@ -1,0 +1,7 @@
+numpy>=1.23
+pandas>=1.5
+scipy>=1.9
+
+# External command-line dependencies (install with Conda, not pip):
+# conda install -c conda-forge -c bioconda samtools htslib tabix -y
+# wgbstools: https://github.com/nloyfer/wgbs_tools
