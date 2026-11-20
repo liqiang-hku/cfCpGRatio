@@ -85,12 +85,4 @@ One tab-separated row is written per reference cell type. The output includes Cp
 
 The raw ratio is `NA` when no CpG observations cover a cell type's marker regions. For scaled composition estimates, a missing raw ratio contributes zero if the normalization denominator is positive. When all ratios are undefined or sum to zero, the scaled estimates remain `NA`.
 
-## Reference
 
-Loyfer N, et al. A DNA methylation atlas of normal human cell types. *Nature*. 2023;613:355–364. https://doi.org/10.1038/s41586-022-05580-6
-
-Loyfer N, et al. wgbstools: a computational suite for DNA methylation sequencing data analysis. *Life Science Alliance*. 2026. See https://github.com/nloyfer/wgbs_tools
-
-## Code and data
-
-This repository contains the cfCpGRatio calculation. It does not include raw clinical sequencing files or the external marker atlas. Public datasets and analysis inputs are described in the accompanying article.
